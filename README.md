@@ -1,7 +1,7 @@
 
-# Project Title: Maces Submission Form
+# Project Task-2: Maces AccuWeather
 
-Live Link: https://maces-task-2.netlify.app/
+Live Link: https://maces-task-2.netlify.app
 
 Git Link: https://github.com/moniru005/maces-task-2
 
@@ -10,9 +10,9 @@ Git Link: https://github.com/moniru005/maces-task-2
 
 **Client:** React, TailwindCSS, Axios, React-icons
 
-**API Base:** http://dataservice.accuweather.com/currentconditions/v1 
+**Server:** Node, Express,
 
-
+**Database:** MongoDB
 
 ## Authors
 - Md. Monir Uddin
