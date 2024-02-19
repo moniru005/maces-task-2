@@ -10,9 +10,7 @@ Git Link: https://github.com/moniru005/maces-task-2
 
 **Client:** React, TailwindCSS, Axios, React-icons
 
-**Server:** Node, Express,
-
-**Database:** MongoDB
+**API Base URL:** https://dataservice.accuweather.com/currentconditions/v1/ 
 
 ## Authors
 - Md. Monir Uddin
