@@ -11,8 +11,8 @@ const WeatherCard = ({ weather }) => {
   const [loading, setLoading] = useState();
 
   const api = {
-    key: import.meta.env.VITE_WEATHER_KEY,
-    base: "http://dataservice.accuweather.com/currentconditions/v1/",
+    key: "import.meta.env.VITE_WEATHER_KEY",
+    base: "https://dataservice.accuweather.com/currentconditions/v1/",
   };
 
   useEffect(() => {
