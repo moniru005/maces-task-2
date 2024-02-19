@@ -9,7 +9,7 @@ const BannerCard = () => {
   const [data, setData] = useState();
 
     const api = {
-        key: "import.meta.env.VITE_WEATHER_KEY",
+        key: import.meta.env.VITE_WEATHER_KEY,
         base: "https://dataservice.accuweather.com/currentconditions/v1/"
     }
 

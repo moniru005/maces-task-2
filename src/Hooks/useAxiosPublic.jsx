@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const axiosPublic = axios.create({
-    baseURL: "http://dataservice.accuweather.com/locations/v1/"
+    baseURL: "https://dataservice.accuweather.com/locations/v1/"
 })
 
 const useAxiosPublic = () => {

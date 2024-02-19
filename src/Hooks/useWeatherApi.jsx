@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 const api = {
-  key: "import.meta.env.VITE_WEATHER_KEY",
+  key: import.meta.env.VITE_WEATHER_KEY,
   base: "https://dataservice.accuweather.com/locations/v1/",
 };
 const useWeatherApi = () => {
