@@ -1,4 +1,4 @@
-import Banner from "../../Components/Banner/Banner";
+import Banner from "../Components/Banner/Banner";
 import WeatherApp from "../Components/WeatherApp/WeatherApp";
 
 const Home = () => {

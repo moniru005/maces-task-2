@@ -1,17 +1,16 @@
 import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
-import { LuCloudSunRain } from "react-icons/lu";
+import logoImage from '/public/favicon2.png';
+
 
 const Footer = () => {
   return (
     <>
       <footer className="footer footer-center p-10 bg-slate-900 text-primary-content">
         <aside>
-        <LuCloudSunRain className="text-5xl text-white"></LuCloudSunRain>
+        <img className="w-16" src={logoImage} alt="" />
 
           <p className="font-medium text-lg">
-            Mu WeatherApp Creation. <br />
-            Providing reliable tech since 2023
-          </p>
+            Maces ACCUWEATHER.           </p>
           <p>Copyright © 2024 - All right reserved</p>
         </aside>
         <nav>

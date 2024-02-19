@@ -5,8 +5,8 @@ const Banner = () => {
 
     return (
       <div>
-        <div className="relative">
-          <img src={image} alt="" />
+        <div className="relative w-full">
+          <img className="w-full" src={image} alt="" />
           <div className="absolute flex items-center h-full top-0 left-0 right-5 bottom-0 bg-gradient-to-r from-[#151515] to-[rgba(21, 21, 21, 0.00) 100%)] "></div>
   
           <div>
